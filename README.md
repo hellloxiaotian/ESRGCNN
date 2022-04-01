@@ -1,1 +1,1 @@
-# LSRGCNN
+# ESRGCNN
