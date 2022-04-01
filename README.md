@@ -1,5 +1,5 @@
 # ESRGCNN
-## An enhanced super-resolution group CNN (ESRGCNN) is conducted by Chunwei Tian, Yixuan Yuan, Shichao Zhang, Chia-Wen Lin, Wangmeng Zuo, David Zhang, 2022. It is implemented by Pytorch. 
+## An enhanced super-resolution group CNN (ESRGCNN) is conducted by Chunwei Tian, Yixuan Yuan, Shichao Zhang, Chia-Wen Lin, Wangmeng Zuo, David Zhang, 2021. It is implemented by Pytorch. 
 
 ## This paper uses group convolutions and residual operations to enhance deep and wide correlations of different channels to implement an efficient SR network
 	
