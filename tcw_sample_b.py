@@ -247,7 +247,7 @@ def main(cfg):
     net = module.Net(multi_scale=False, 
                      group=cfg.group)
     '''
-    net = module.Net(scale=cfg.scale, 
+    net = module.Net(scale=True, 
                      group=cfg.group)
     '''
     #net = MyModel
