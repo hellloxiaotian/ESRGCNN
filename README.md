@@ -87,7 +87,7 @@
 
 ![RUNOOB 图标](./images/10.png)
 
-### 10. Complexities of different methods for x2, x3 and x4.
+### 10. Complexities of different methods for x2.
 ![RUNOOB 图标](./images/11.png)
 
 ### 11. ESRGCNN for x2, x3 and x4 on B100 about FSIM
