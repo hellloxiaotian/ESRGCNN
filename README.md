@@ -102,5 +102,10 @@
 ![RUNOOB 图标](./images/14.png)
 
 ### If you want to cite this paper, please refer to the following formats:
-#### 1. We will update it after retrieval.
-#### 2. We will update it after retrieval.
+#### 1. Tian C, Yuan Y, Zhang S, et al. Image Super-resolution with An Enhanced Group Convolutional Neural Network[J]. arXiv preprint arXiv:2205.14548, 2022.
+#### 2. @article{tian2022image,
+####    title={Image Super-resolution with An Enhanced Group Convolutional Neural Network},
+####    author={Tian, Chunwei and Yuan, Yixuan and Zhang, Shichao and Lin, Chia-Wen and Zuo, Wangmeng and Zhang, David},
+####    journal={arXiv preprint arXiv:2205.14548},
+####    year={2022}
+###     }
