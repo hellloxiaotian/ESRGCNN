@@ -229,7 +229,7 @@ def sample(net, device, dataset, cfg):
         #mean_psnr1 +=psnr(sr_Y,hr_Y)/len(dataset)
         mean_psnr2 +=psnr(sr_1,hr_1)/len(dataset)
         mean_ssim += calculate_ssim(sr_1,hr_1)/len(dataset)
-        #print mean_psnr2, mean_ssim, len(dataset)
+        print name, psnr(sr_1,hr_1), calculate_ssim(sr_1,hr_1)
         #print len(dataset) #it is only used to debug the code.
         #mean_psnr += psnr(im1, im2) / len(dataset) #tcw
         #mean_psnr2 +=psnr(sr_Y2,hr_Y2)/len(dataset)
@@ -243,12 +243,12 @@ def sample(net, device, dataset, cfg):
 
 def main(cfg):
     module = importlib.import_module("model.{}".format(cfg.model))
-    ''' 
-    net = module.Net(multi_scale=False, 
+    
+    net = module.Net(multi_scale=True, 
                      group=cfg.group)
-    '''
-    net = module.Net(scale=True, 
-                     group=cfg.group)
+    
+    # net = module.Net(scale=cfg.scale, 
+    #                 group=cfg.group)
     '''
     #net = MyModel
     params = list(net.parameters())
