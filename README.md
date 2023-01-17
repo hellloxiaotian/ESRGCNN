@@ -1,11 +1,9 @@
 ## Image Super-resolution with An Enhanced Group Convolutional Neural Network is proposed by Chunwei Tian, Yixuan Yuan, Shichao Zhang, Chia-Wen Lin, Wangmeng Zuo, David Zhang, 2021. It is implemented by Pytorch. And this work is obtained at https://arxiv.org/pdf/2205.14548. This paper is reported by the 52CV at https://mp.weixin.qq.com/s/Y4SOhhkx9OvCBYAURAIRsw and AIWalker at https://mp.weixin.qq.com/s/uK0S6pGynfhWyhe0Vx64XA. This paper is accepted by the Neural Networks (CCF B/SCI-IF:9.657) in 2022. 
 
 ## This paper uses group convolutions and residual operations to enhance deep and wide correlations of different channels to implement an efficient SR network.
-
+[![OSCS Status](https://www.oscs1024.com/platform/badge/hellloxiaotian/ESRGCNN.svg?size=small)](https://www.oscs1024.com/project/hellloxiaotian/ESRGCNN?ref=badge_small)
 
 https://user-images.githubusercontent.com/25679314/196603835-7a53e29b-4de2-4fec-bdf2-1fe4c5ba2239.mp4
-
-[![OSCS Status](https://www.oscs1024.com/platform/badge/hellloxiaotian/ESRGCNN.svg?size=small)](https://www.oscs1024.com/project/hellloxiaotian/ESRGCNN?ref=badge_small)
 
 ## Absract
 #### CNNs with strong learning abilities are widely chosen to resolve super-resolution problem. However, CNNs depend on deeper network architectures to improve performance of image super-resolution, which may increase computational cost in general. In this paper, we present an enhanced super-resolution group CNN (ESRGCNN) with a shallow architecture by fully fusing deep and wide channel features to extract more accurate low-frequency information in terms of correlations of different channels in single image super-resolution (SISR). Also, a signal enhancement operation in the ESRGCNN is useful to inherit more long-distance contextual information for resolving long-term dependency. An adaptive up-sampling operation is gathered into a CNN to obtain an image super-resolution model with low-resolution images of different sizes. Extensive experiments report that our ESRGCNN surpasses the state-of-the-arts in terms of SISR performance, complexity, execution speed, image quality evaluation and visual effect in SISR. Code is found at https://github.com/hellloxiaotian/ESRGCNN.
