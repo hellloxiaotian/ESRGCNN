@@ -1,5 +1,7 @@
 ## Image Super-resolution with An Enhanced Group Convolutional Neural Network is proposed by Chunwei Tian, Yixuan Yuan, Shichao Zhang, Chia-Wen Lin, Wangmeng Zuo, David Zhang, 2021. It is implemented by Pytorch. And this work is obtained at https://arxiv.org/pdf/2205.14548. This paper is reported by the 52CV at https://mp.weixin.qq.com/s/Y4SOhhkx9OvCBYAURAIRsw and AIWalker at https://mp.weixin.qq.com/s/uK0S6pGynfhWyhe0Vx64XA. This paper is accepted by the Neural Networks (CCF B/SCI-IF:9.657) in 2022. 
 
+## It is collected by the OCSC and invited to conduct an bechmark of super-resolution. 
+
 ## This paper uses group convolutions and residual operations to enhance deep and wide correlations of different channels to implement an efficient SR network.
 [![OSCS Status](https://www.oscs1024.com/platform/badge/hellloxiaotian/ESRGCNN.svg?size=small)](https://www.oscs1024.com/project/hellloxiaotian/ESRGCNN?ref=badge_small)
 
